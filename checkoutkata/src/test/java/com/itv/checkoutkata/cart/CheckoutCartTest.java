@@ -1,4 +1,4 @@
-package com.itv.checkoutkata;
+package com.itv.checkoutkata.cart;
 
 import static org.junit.Assert.assertEquals;
 

@@ -46,6 +46,7 @@ public class CheckoutCart {
 	}
 	
 	public int getTotal() {
+		total = 0;
 		if (products != null) {
 			Map<Character, Long> nbProducts = products.stream().collect(groupingBy(identity(), counting()));
 			
